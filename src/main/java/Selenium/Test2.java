@@ -14,6 +14,8 @@ public class Test2 {
     public void autoSuggestive() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/home/commandquality/Downloads/chromedriver_linux64/chromedriver");
         WebDriver driver = new ChromeDriver();
+
+
      /*   driver.get("https://www.makemytrip.com/");
        // driver.findElement(By.cssSelector("\"input[type='text']\"")).clear();
         driver.findElement(By.cssSelector("input[type='text']")).sendKeys("mum");
