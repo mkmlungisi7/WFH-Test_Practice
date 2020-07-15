@@ -5,6 +5,14 @@
       <root url="jar://$USER_HOME$/Downloads/testng-7.1.0.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/rest-assured-3.1.0.jar!/" />
       <root url="file://$USER_HOME$/Downloads/commons-io-2.7" />
+      <root url="jar://$USER_HOME$/Downloads/java-client-7.3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/json-schema-validator-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/kotlin-extensions-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/rest-assured-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/scala-support-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/spring-mock-mvc-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/spring-web-test-client-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/Rest Jars/xml-path-4.3.1-dist.zip!/" />
     </CLASSES>
     <JAVADOC>
       <root url="file://$USER_HOME$/Downloads/commons-io-2.7/docs" />

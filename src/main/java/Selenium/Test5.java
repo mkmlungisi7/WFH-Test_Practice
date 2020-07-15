@@ -42,7 +42,8 @@ public class Test5 {
 
         //how to handle frames,and drag and drop
         driver.get("https://jqueryui.com/droppable/");
-        driver.switchTo().frame(driver.findElement(By.cssSelector(".demo-frame")));
+        WebElement el=driver.findElement(By.cssSelector(".demo-frame"));
+        driver.switchTo().frame(el);
         driver.findElement(By.id("droppable")).click();
         Actions actions = new Actions(driver);
         WebElement source = driver.findElement(By.id("draggable"));
