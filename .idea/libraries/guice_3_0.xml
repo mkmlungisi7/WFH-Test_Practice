@@ -13,6 +13,10 @@
       <root url="jar://$USER_HOME$/Downloads/Rest Jars/spring-mock-mvc-4.3.1-dist.zip!/" />
       <root url="jar://$USER_HOME$/Downloads/Rest Jars/spring-web-test-client-4.3.1-dist.zip!/" />
       <root url="jar://$USER_HOME$/Downloads/Rest Jars/xml-path-4.3.1-dist.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/gson-2.8.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jackson-annotations-2.11.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jackson-core-2.11.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jackson-databind-2.11.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="file://$USER_HOME$/Downloads/commons-io-2.7/docs" />
