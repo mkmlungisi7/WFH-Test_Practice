@@ -37,7 +37,7 @@ public class Test8 {
 
 //Desired capabilities=
 //general chrome profile
-        DesiredCapabilities ch = DesiredCapabilities.chrome();
+        DesiredCapabilities ch = new DesiredCapabilities();
 //ch.acceptInsecureCerts();
         ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
         ch.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);

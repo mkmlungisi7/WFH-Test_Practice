@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+     <listener class-name="JavaUsingTestNG.Listeners">
+
+     </listener>
+    </listeners>
     <test name="Personal Loan">
-        <!--        <groups>-->
-        <!--            <run>-->
-        <!--                <include name="regression"/>-->
-        <!--            </run>-->
-        <!--        </groups>-->
+<!--                <groups>-->
+<!--                    <run>-->
+<!--                        <include name="regression"/>-->
+<!--                    </run>-->
+<!--                </groups>-->
 
         <classes>
             <class name="JavaUsingTestNG.Test1">
@@ -21,7 +26,9 @@
     </test>
     <test name="Car Loan">
         <classes>
-            <class name="Selenium.Assignment1"></class>
+            <class name="Selenium.Assignment1">
+
+            </class>
         </classes>
     </test>
 </suite>

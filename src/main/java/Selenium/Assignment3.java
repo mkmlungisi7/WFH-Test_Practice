@@ -18,7 +18,7 @@ public class Assignment3 {
 
 
         driver.findElement(By.xpath("//*[@id=\"content\"]/a[2]")).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#results")));
+       // wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#results")));
 
         System.out.println(driver.findElement(By.id("results")).getText());
 

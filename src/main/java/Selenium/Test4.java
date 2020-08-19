@@ -45,7 +45,7 @@ public class Test4 {
         System.out.println(driver.findElement(By.cssSelector("span.promoinfo")).getText());
         */
 
-        FluentWait<WebDriver> wait = new FluentWait<>(driver).withTimeout(40,TimeUnit.SECONDS).
+        FluentWait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ZERO).
                 pollingEvery(Duration.ofSeconds(3)).ignoring(NoSuchElementException.class);
         WebElement webElement = wait.until(new Function<WebDriver, WebElement>() {
             @Override
